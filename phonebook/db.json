@@ -1,0 +1,34 @@
+{
+  "persons": [
+    {
+      "name": "Arto Hellas",
+      "number": "040-123456",
+      "id": 1
+    },
+    {
+      "name": "Ada Lovelace",
+      "number": "39-44-5323523",
+      "id": 2
+    },
+    {
+      "name": "Dan Abramov",
+      "number": "12-43-234345",
+      "id": 3
+    },
+    {
+      "name": "Efren Reyes",
+      "number": "234 456 6789",
+      "id": 4
+    },
+    {
+      "name": "Gringo Tito",
+      "number": "786 453 7768",
+      "id": 5
+    },
+    {
+      "name": "Bob Ross",
+      "number": "2345 8972",
+      "id": 6
+    }
+  ]
+}
