@@ -74,18 +74,16 @@ const Field = ({ label, value, handleChange }) => {
 
 const App = () => {
   const [persons, setPersons] = useState([
-    { name: 'Arto Hellas', number: '040-123456', id: 1 },
   ])
 
-  const [newName, setNewName] = useState('a new name...')
-  const [newNumber, setNewNumber] = useState('a new number...')
+  const [newName, setNewName] = useState('')
+  const [newNumber, setNewNumber] = useState('')
   const [filterdPerson, setFilteredPerson] = useState('')
   const [successMessage, setSuccessMessage] = useState(null)
   const [errorMessage, setErrorMessage] = useState(null)
 
 
   useEffect(() => {
-    console.log('effect')
     personService
       .getAll()
       .then(response => {
